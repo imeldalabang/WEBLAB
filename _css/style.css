@@ -25,14 +25,14 @@ article{
 h1{
   font-family:serif,sans-serif,fantasy ;
   font-weight: 1000;
-  color:black;
+  color:#FFFFFF;
 }
 h2,h3{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 900;
 }
 h3{
-  color: #FC600A;
+  color: #696969;
 }
 p{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
