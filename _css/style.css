@@ -54,6 +54,33 @@ p,figure{
   color: black;
   background-color:#6a8019 ;
 }
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th {
+  height: 70px;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+}
+tbody tr:hover {
+  background-color:#FC600A  ;
+}
+thead tr {
+  background-color:#696969;
+  color:#E6F3B8;
+}
+td, th {
+  border:1px solid;
+  padding: 4px;
+}
+form{
+  width:70%
+}
 a:link { color:black; } /* unvisited link */
 a:visited { color:#B2D732; } /* visited link */
 a:hover { color:#98d3c9; } /* mouse over link */
