@@ -18,8 +18,8 @@ article {
     clear: both;
     border-radius: 15px;
     width: 100%;
-    max-width: auto;
-    min-width: auto;
+    max-width:max-content;
+    min-width:min-content;
     display: table;
     margin: 5px;
     padding: 10px;
@@ -27,16 +27,13 @@ article {
 
 }
 
-p {
-    padding: 1%
-}
 
 figure img {
     display: block;
     clear: both;
     height: 185px;
     width: 185px;
-    margin: left 2px;
+    margin: 10px;
     margin-right: auto;
     border: solid medium black;
     box-sizing: border-box;
