@@ -23,12 +23,12 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #FDCFB4;
-  color: black;
+  background-color:#FDCFB4;
+  color:black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #F0F7D4;
-  color: black;
+  background-color:#F0F7D4;
+  color:black;
 }
