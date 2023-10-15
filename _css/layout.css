@@ -38,6 +38,10 @@ figure img {
     border: solid medium black;
     box-sizing: border-box;
 }
+figcaption {
+    clear: both;   
+  }
+  
 
 p {
     line-height: 1.4;
