@@ -46,6 +46,7 @@ figure img {
     margin-right: auto;
     border: solid medium black;
     box-sizing: border-box;
+    max-width:max-content;
 }
 figcaption {
     clear: both;   
