@@ -1,0 +1,48 @@
+/* box-models */
+* {
+    box-sizing: border-box;
+}
+
+header img {
+    position: absolute;
+    right: 5%;
+    z-index: 4;
+    width: auto;
+    max-width: 15vw;
+    height: auto;
+}
+
+
+article {
+    content: "";
+    clear: both;
+    border-radius: 15px;
+    width: 100%;
+    max-width: auto;
+    min-width: auto;
+    display: table;
+    margin: 5px;
+    padding: 10px;
+
+
+}
+
+p {
+    padding: 1%
+}
+
+figure img {
+    display: block;
+    clear: both;
+    height: 185px;
+    width: 185px;
+    margin: left 2px;
+    margin-right: auto;
+    border: solid medium black;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: 1.4;
+    margin-top: 2em;
+}
