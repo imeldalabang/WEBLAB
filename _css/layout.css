@@ -14,7 +14,8 @@ header img {
     z-index: 4;
     width: auto;
     max-width: 15vw;
-    height: auto;
+    height:auto;
+    top:1rem;
 }
 main {
     margin: 0 3em;
