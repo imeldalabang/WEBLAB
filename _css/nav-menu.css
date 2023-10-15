@@ -3,10 +3,13 @@
 .topnav {
   background-color: #FC600A;
   overflow: hidden;
+  position:sticky;
+  top:0;
+
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.topnav a { 
   float: left;
   color: #f2f2f2;
   text-align: center;
