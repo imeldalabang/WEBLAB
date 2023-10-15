@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+  }
+
 header img {
     position: absolute;
     right: 5%;
@@ -11,6 +16,10 @@ header img {
     max-width: 15vw;
     height: auto;
 }
+main {
+    margin: 0 3em;
+    padding: 5px 10px;
+  }
 
 
 article {
