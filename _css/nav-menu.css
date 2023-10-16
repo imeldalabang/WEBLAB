@@ -1,7 +1,7 @@
 /* Set nav to sticky or fixed */
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color:#FD7B35;
+  background-color:#FFFFFF ;
   overflow: hidden;
   position:sticky;
   top:0;
