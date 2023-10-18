@@ -80,11 +80,15 @@ td, th {
   border:1px solid;
   padding: 4px;
 }
-form{
-  width:70%
+fieldset {
+  width:30%;
+  margin: auto;
 }
 a:link { color:black; } /* unvisited link */
 a:visited { color:#B2D732; } /* visited link */
 a:hover { color:#98d3c9; } /* mouse over link */
 a:active { color:#0000FF; }  /* selected link */
 
+.inputSize {
+  width: 100%;
+}
