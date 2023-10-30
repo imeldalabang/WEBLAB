@@ -73,54 +73,54 @@
           <div class="w3-row w3-section">
             <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
             <div class="w3-rest">
-              <label title="phone"><input class="w3-input w3-border" name="phone" type="text" aria-label="123-456-7890"
-                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required></label>
+              <input class="w3-input w3-border" name="phone" type="text" aria-label="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required>
             </div>
           </div>
-          <div>
-            <label title="Select your favorite movie of Owen Wilson:"  class="visuallyhidden"> MOVIES OF OWEN WILSON </label>
-          </div>
-          <select name="movieID">
-            <option value="">&larr;&nbsp;CHOOSE YOUR FAVORITE MOVIE&nbsp;&rarr;</option>
-            <option value="1">SHANGHAI NOON</option>
-            <option value="2">ZOOLANDER</option>
-            <option value="3">STARSKY & HUTCH</option>
-            <option value="4">WEDDING CRASHERS</option>
-            <option value="5">YOU,ME AND DUPREE</option>
-            <option value="6">HOW DO YOU KNOW</option>
-            <option value="7">THE BIG YEAR</option>
-            <option value="8">MARRY ME</option>
-          </select>
-          <h3 style="text-align: center;">YOUR FEEDBACK ABOUT THE PAGE</h3>
-          <p style="text-align:center"> On a scale of 1 to 5 ,how would you rate our page?</p>
-          <p style="text-align:center">
-            <label title="Select if it is 1."> 1 <input type="radio" name="request"></label>
-            <br>
-            <label title="Select if it is 2."> 2 <input type="radio" name="request"></label>
-            <br>
-            <label title="Select if it is 3."> 3 <input type="radio" name="request"></label>
-            <br>
-            <label title="Select if it is 4."> 4 <input type="radio" name="request"></label>
-            <br>
-            <label title="Select if it is 5."> 5 <input type="radio" name="request"></label>
-            <br>
-          </p>
-          <p style="text-align:center">
-            <label for="message">What would you like to discuss about the page?</label><br>
-            <textarea id="message" name="message">Please write your message here:</textarea>
-          </p>
-          <p style="text-align:center">
-            <label title="click if you given all your information."><input type="checkbox"
-                name="Check if empty spaces have been filled.">Check if empty spaces have been filled</label>
-          </p>
-          <p style="text-align:center"><strong>Click the reset all button down to erase all your information if needed.</strong></p>
-          <P style="text-align: center;">
-            <button class="w3-button w3-amber">Reset all</button>
-          </P>
-          <p style="text-align:center"><strong>Click the submit mail button down to finish your request.Thanks!!!</strong></p>
-          <P style="text-align: center;">
-            <button class="w3-button w3-amber">Submit mail</button>
-          </p>
+          <label id="combo1-label" class="combo-label"><strong> OWEN WILSON'S MOVIES</strong></label>
+            <select name="movieID">
+              <option value="">&larr;&nbsp;CHOOSE YOUR FAVORITE MOVIE&nbsp;&rarr;</option>
+              <option value="1">SHANGHAI NOON</option>
+              <option value="2">ZOOLANDER</option>
+              <option value="3">STARSKY & HUTCH</option>
+              <option value="4">WEDDING CRASHERS</option>
+              <option value="5">YOU,ME AND DUPREE</option>
+              <option value="6">HOW DO YOU KNOW</option>
+              <option value="7">THE BIG YEAR</option>
+              <option value="8">MARRY ME</option>
+            </select>
+            <h3 style="text-align: center;">YOUR FEEDBACK ABOUT THE PAGE</h3>
+            <p style="text-align:center"> On a scale of 1 to 5 ,how would you rate our page?</p>
+            <p style="text-align:center">
+              <label title="Select if it is 1."> 1 <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if it is 2."> 2 <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if it is 3."> 3 <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if it is 4."> 4 <input type="radio" name="request"></label>
+              <br>
+              <label title="Select if it is 5."> 5 <input type="radio" name="request"></label>
+              <br>
+            </p>
+            <p style="text-align:center">
+              <label for="message">What would you like to discuss about the page?</label><br>
+              <textarea id="message" name="message">Please write your message here:</textarea>
+            </p>
+            <p style="text-align:center">
+              <label title="click if you given all your information."><input type="checkbox"
+                  name="Check if empty spaces have been filled.">Check if empty spaces have been filled</label>
+            </p>
+            <p style="text-align:center"><strong>Click the reset all button down to erase all your information if
+                needed.</strong></p>
+            <P style="text-align: center;">
+              <button class="w3-button w3-amber">Reset all</button>
+            </P>
+            <p style="text-align:center"><strong>Click the submit mail button down to finish your
+                request.Thanks!!!</strong></p>
+            <P style="text-align: center;">
+              <button class="w3-button w3-amber">Submit mail</button>
+            </p>
         </form>
       </fieldset>
     </section>
